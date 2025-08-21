@@ -1,0 +1,408 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/pango/personal/ui.h/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+ARRAY_GET	nob.h	/^        #define ARRAY_GET /;"	d
+ARRAY_LEN	nob.h	/^        #define ARRAY_LEN /;"	d
+Cmd	nob.h	/^        #define Cmd /;"	d
+Cmd_Opt	nob.h	/^        #define Cmd_Opt /;"	d
+Cmd_Redirect	nob.h	/^        #define Cmd_Redirect /;"	d
+DIR	nob.h	/^struct DIR$/;"	s
+DIR	nob.h	/^typedef struct DIR DIR;$/;"	t	typeref:struct:DIR
+DIR::data	nob.h	/^    WIN32_FIND_DATA data;$/;"	m	struct:DIR	typeref:typename:WIN32_FIND_DATA
+DIR::dirent	nob.h	/^    struct dirent *dirent;$/;"	m	struct:DIR	typeref:struct:dirent *
+DIR::hFind	nob.h	/^    HANDLE hFind;$/;"	m	struct:DIR	typeref:typename:HANDLE
+ERROR	nob.h	/^        #define ERROR /;"	d
+FILE_DIRECTORY	nob.h	/^        #define FILE_DIRECTORY /;"	d
+FILE_OTHER	nob.h	/^        #define FILE_OTHER /;"	d
+FILE_REGULAR	nob.h	/^        #define FILE_REGULAR /;"	d
+FILE_SYMLINK	nob.h	/^        #define FILE_SYMLINK /;"	d
+Fd	nob.h	/^        #define Fd /;"	d
+File_Paths	nob.h	/^        #define File_Paths /;"	d
+File_Type	nob.h	/^        #define File_Type /;"	d
+INFO	nob.h	/^        #define INFO /;"	d
+INVALID_FD	nob.h	/^        #define INVALID_FD /;"	d
+INVALID_PROC	nob.h	/^        #define INVALID_PROC /;"	d
+Log_Level	nob.h	/^        #define Log_Level /;"	d
+NANOS_PER_SEC	nob.h	/^        #define NANOS_PER_SEC /;"	d
+NOBDEF	nob.h	/^#define NOBDEF$/;"	d
+NOB_ARRAY_GET	nob.h	/^#define NOB_ARRAY_GET(/;"	d	signature:(array,index)
+NOB_ARRAY_LEN	nob.h	/^#define NOB_ARRAY_LEN(/;"	d	signature:(array)
+NOB_ASSERT	nob.h	/^#define NOB_ASSERT /;"	d
+NOB_DA_INIT_CAP	nob.h	/^#define NOB_DA_INIT_CAP /;"	d
+NOB_DECLTYPE_CAST	nob.h	/^#define NOB_DECLTYPE_CAST(/;"	d	signature:(T)
+NOB_DEPRECATED	nob.h	/^#            define NOB_DEPRECATED(/;"	d	signature:(...)
+NOB_DEPRECATED	nob.h	/^#            define NOB_DEPRECATED(/;"	d	signature:(message)
+NOB_DEPRECATED	nob.h	/^#    define NOB_DEPRECATED(/;"	d	signature:(...)
+NOB_ERROR	nob.h	/^    NOB_ERROR,$/;"	e	enum:__anon10040cda0103
+NOB_FILE_DIRECTORY	nob.h	/^    NOB_FILE_DIRECTORY,$/;"	e	enum:__anon10040cda0303
+NOB_FILE_OTHER	nob.h	/^    NOB_FILE_OTHER,$/;"	e	enum:__anon10040cda0303
+NOB_FILE_REGULAR	nob.h	/^    NOB_FILE_REGULAR = 0,$/;"	e	enum:__anon10040cda0303
+NOB_FILE_SYMLINK	nob.h	/^    NOB_FILE_SYMLINK,$/;"	e	enum:__anon10040cda0303
+NOB_FREE	nob.h	/^#define NOB_FREE /;"	d
+NOB_GO_REBUILD_URSELF	nob.h	/^#define NOB_GO_REBUILD_URSELF(/;"	d	signature:(argc,argv)
+NOB_GO_REBUILD_URSELF_PLUS	nob.h	/^#define NOB_GO_REBUILD_URSELF_PLUS(/;"	d	signature:(argc,argv,...)
+NOB_H_	nob.h	/^#define NOB_H_$/;"	d
+NOB_IMPLEMENTATION	nob.c	/^#define NOB_IMPLEMENTATION$/;"	d	file:
+NOB_INFO	nob.h	/^    NOB_INFO,$/;"	e	enum:__anon10040cda0103
+NOB_INVALID_FD	nob.h	/^#define NOB_INVALID_FD /;"	d
+NOB_INVALID_PROC	nob.h	/^#define NOB_INVALID_PROC /;"	d
+NOB_LINE_END	nob.h	/^#    define NOB_LINE_END /;"	d
+NOB_NANOS_PER_SEC	nob.h	/^#define NOB_NANOS_PER_SEC /;"	d
+NOB_NO_LOGS	nob.h	/^    NOB_NO_LOGS,$/;"	e	enum:__anon10040cda0103
+NOB_PRINTF_FORMAT	nob.h	/^#        define NOB_PRINTF_FORMAT(/;"	d	signature:(STRING_INDEX,FIRST_TO_CHECK)
+NOB_PRINTF_FORMAT	nob.h	/^#    define NOB_PRINTF_FORMAT(/;"	d	signature:(STRING_INDEX,FIRST_TO_CHECK)
+NOB_REALLOC	nob.h	/^#define NOB_REALLOC /;"	d
+NOB_REBUILD_URSELF	nob.h	/^#       define NOB_REBUILD_URSELF(/;"	d	signature:(binary_path,source_path)
+NOB_REBUILD_URSELF	nob.h	/^#    define NOB_REBUILD_URSELF(/;"	d	signature:(binary_path,source_path)
+NOB_STRIP_PREFIX_GUARD_	nob.h	/^#define NOB_STRIP_PREFIX_GUARD_$/;"	d
+NOB_TEMP_CAPACITY	nob.h	/^#define NOB_TEMP_CAPACITY /;"	d
+NOB_TODO	nob.h	/^#define NOB_TODO(/;"	d	signature:(message)
+NOB_UNREACHABLE	nob.h	/^#define NOB_UNREACHABLE(/;"	d	signature:(message)
+NOB_UNUSED	nob.h	/^#define NOB_UNUSED(/;"	d	signature:(value)
+NOB_WARNING	nob.h	/^    NOB_WARNING,$/;"	e	enum:__anon10040cda0103
+NOB_WIN32_ERR_MSG_SIZE	nob.h	/^#define NOB_WIN32_ERR_MSG_SIZE /;"	d
+NO_LOGS	nob.h	/^        #define NO_LOGS /;"	d
+Nob_Cmd	nob.h	/^} Nob_Cmd;$/;"	t	typeref:struct:__anon10040cda0608
+Nob_Cmd_Opt	nob.h	/^} Nob_Cmd_Opt;$/;"	t	typeref:struct:__anon10040cda0708
+Nob_Cmd_Redirect	nob.h	/^} Nob_Cmd_Redirect;$/;"	t	typeref:struct:__anon10040cda0808
+Nob_Fd	nob.h	/^typedef HANDLE Nob_Fd;$/;"	t	typeref:typename:HANDLE
+Nob_Fd	nob.h	/^typedef int Nob_Fd;$/;"	t	typeref:typename:int
+Nob_File_Paths	nob.h	/^} Nob_File_Paths;$/;"	t	typeref:struct:__anon10040cda0208
+Nob_File_Type	nob.h	/^} Nob_File_Type;$/;"	t	typeref:enum:__anon10040cda0303
+Nob_Log_Level	nob.h	/^} Nob_Log_Level;$/;"	t	typeref:enum:__anon10040cda0103
+Nob_Proc	nob.h	/^typedef HANDLE Nob_Proc;$/;"	t	typeref:typename:HANDLE
+Nob_Proc	nob.h	/^typedef int Nob_Proc;$/;"	t	typeref:typename:int
+Nob_Procs	nob.h	/^} Nob_Procs;$/;"	t	typeref:struct:__anon10040cda0508
+Nob_String_Builder	nob.h	/^} Nob_String_Builder;$/;"	t	typeref:struct:__anon10040cda0408
+Nob_String_View	nob.h	/^} Nob_String_View;$/;"	t	typeref:struct:__anon10040cda0908
+Proc	nob.h	/^        #define Proc /;"	d
+Procs	nob.h	/^        #define Procs /;"	d
+SV_Arg	nob.h	/^#define SV_Arg(/;"	d	signature:(sv)
+SV_Fmt	nob.h	/^#define SV_Fmt /;"	d
+String_Builder	nob.h	/^        #define String_Builder /;"	d
+String_View	nob.h	/^        #define String_View /;"	d
+TODO	nob.h	/^        #define TODO /;"	d
+UI_CONTEXT_LENGTH	src/ui.h	/^#define UI_CONTEXT_LENGTH /;"	d
+UI_Context	src/ui.h	/^typedef struct UI_Context {$/;"	s
+UI_Context	src/ui.h	/^} UI_Context;$/;"	t	typeref:struct:UI_Context
+UI_Context::root	src/ui.h	/^    UI_Layout root;$/;"	m	struct:UI_Context	typeref:typename:UI_Layout
+UI_Context::storage	src/ui.h	/^    UI_Layout storage[UI_CONTEXT_LENGTH];$/;"	m	struct:UI_Context	typeref:typename:UI_Layout[]
+UI_LAYOUT_COL	src/ui.h	/^    UI_LAYOUT_COL, \/\/ windows go in a column, from top to bottom$/;"	e	enum:UI_LayoutType
+UI_LAYOUT_ROW	src/ui.h	/^    UI_LAYOUT_ROW, \/\/ windows go in a row, from left to right$/;"	e	enum:UI_LayoutType
+UI_Layout	src/ui.h	/^typedef struct UI_Layout {$/;"	s
+UI_Layout	src/ui.h	/^} UI_Layout;$/;"	t	typeref:struct:UI_Layout
+UI_Layout::children	src/ui.h	/^    int* children;$/;"	m	struct:UI_Layout	typeref:typename:int *
+UI_Layout::children_length	src/ui.h	/^    int children_length;$/;"	m	struct:UI_Layout	typeref:typename:int
+UI_Layout::type	src/ui.h	/^    UI_LayoutType type;$/;"	m	struct:UI_Layout	typeref:typename:UI_LayoutType
+UI_LayoutType	src/ui.h	/^typedef enum UI_LayoutType {$/;"	g
+UI_LayoutType	src/ui.h	/^} UI_LayoutType;$/;"	t	typeref:enum:UI_LayoutType
+UNREACHABLE	nob.h	/^        #define UNREACHABLE /;"	d
+UNUSED	nob.h	/^        #define UNUSED /;"	d
+WARNING	nob.h	/^        #define WARNING /;"	d
+WIN32_LEAN_AND_MEAN	nob.h	/^#    define WIN32_LEAN_AND_MEAN$/;"	d
+WIN32_LEAN_AND_MEAN	nob.h	/^#define WIN32_LEAN_AND_MEAN$/;"	d
+_CRT_SECURE_NO_WARNINGS	nob.h	/^#define _CRT_SECURE_NO_WARNINGS /;"	d
+_IMM_	nob.h	/^#    define _IMM_$/;"	d
+_WINCON_	nob.h	/^#    define _WINCON_$/;"	d
+_WINGDI_	nob.h	/^#    define _WINGDI_$/;"	d
+_WINUSER_	nob.h	/^#    define _WINUSER_$/;"	d
+__anon10040cda0103	nob.h	/^typedef enum {$/;"	g
+__anon10040cda0208	nob.h	/^typedef struct {$/;"	s
+__anon10040cda0208::capacity	nob.h	/^    size_t capacity;$/;"	m	struct:__anon10040cda0208	typeref:typename:size_t
+__anon10040cda0208::count	nob.h	/^    size_t count;$/;"	m	struct:__anon10040cda0208	typeref:typename:size_t
+__anon10040cda0208::items	nob.h	/^    const char **items;$/;"	m	struct:__anon10040cda0208	typeref:typename:const char **
+__anon10040cda0303	nob.h	/^typedef enum {$/;"	g
+__anon10040cda0408	nob.h	/^typedef struct {$/;"	s
+__anon10040cda0408::capacity	nob.h	/^    size_t capacity;$/;"	m	struct:__anon10040cda0408	typeref:typename:size_t
+__anon10040cda0408::count	nob.h	/^    size_t count;$/;"	m	struct:__anon10040cda0408	typeref:typename:size_t
+__anon10040cda0408::items	nob.h	/^    char *items;$/;"	m	struct:__anon10040cda0408	typeref:typename:char *
+__anon10040cda0508	nob.h	/^typedef struct {$/;"	s
+__anon10040cda0508::capacity	nob.h	/^    size_t capacity;$/;"	m	struct:__anon10040cda0508	typeref:typename:size_t
+__anon10040cda0508::count	nob.h	/^    size_t count;$/;"	m	struct:__anon10040cda0508	typeref:typename:size_t
+__anon10040cda0508::items	nob.h	/^    Nob_Proc *items;$/;"	m	struct:__anon10040cda0508	typeref:typename:Nob_Proc *
+__anon10040cda0608	nob.h	/^typedef struct {$/;"	s
+__anon10040cda0608::capacity	nob.h	/^    size_t capacity;$/;"	m	struct:__anon10040cda0608	typeref:typename:size_t
+__anon10040cda0608::count	nob.h	/^    size_t count;$/;"	m	struct:__anon10040cda0608	typeref:typename:size_t
+__anon10040cda0608::items	nob.h	/^    const char **items;$/;"	m	struct:__anon10040cda0608	typeref:typename:const char **
+__anon10040cda0708	nob.h	/^typedef struct {$/;"	s
+__anon10040cda0708::async	nob.h	/^    Nob_Procs *async;$/;"	m	struct:__anon10040cda0708	typeref:typename:Nob_Procs *
+__anon10040cda0708::max_procs	nob.h	/^    size_t max_procs;$/;"	m	struct:__anon10040cda0708	typeref:typename:size_t
+__anon10040cda0708::stderr_path	nob.h	/^    const char *stderr_path;$/;"	m	struct:__anon10040cda0708	typeref:typename:const char *
+__anon10040cda0708::stdin_path	nob.h	/^    const char *stdin_path;$/;"	m	struct:__anon10040cda0708	typeref:typename:const char *
+__anon10040cda0708::stdout_path	nob.h	/^    const char *stdout_path;$/;"	m	struct:__anon10040cda0708	typeref:typename:const char *
+__anon10040cda0808	nob.h	/^typedef struct {$/;"	s
+__anon10040cda0808::fderr	nob.h	/^    Nob_Fd *fderr;$/;"	m	struct:__anon10040cda0808	typeref:typename:Nob_Fd *
+__anon10040cda0808::fdin	nob.h	/^    Nob_Fd *fdin;$/;"	m	struct:__anon10040cda0808	typeref:typename:Nob_Fd *
+__anon10040cda0808::fdout	nob.h	/^    Nob_Fd *fdout;$/;"	m	struct:__anon10040cda0808	typeref:typename:Nob_Fd *
+__anon10040cda0908	nob.h	/^typedef struct {$/;"	s
+__anon10040cda0908::count	nob.h	/^    size_t count;$/;"	m	struct:__anon10040cda0908	typeref:typename:size_t
+__anon10040cda0908::data	nob.h	/^    const char *data;$/;"	m	struct:__anon10040cda0908	typeref:typename:const char *
+async	nob.h	/^    Nob_Procs *async;$/;"	m	struct:__anon10040cda0708	typeref:typename:Nob_Procs *
+capacity	nob.h	/^    size_t capacity;$/;"	m	struct:__anon10040cda0208	typeref:typename:size_t
+capacity	nob.h	/^    size_t capacity;$/;"	m	struct:__anon10040cda0408	typeref:typename:size_t
+capacity	nob.h	/^    size_t capacity;$/;"	m	struct:__anon10040cda0508	typeref:typename:size_t
+capacity	nob.h	/^    size_t capacity;$/;"	m	struct:__anon10040cda0608	typeref:typename:size_t
+children	src/ui.h	/^    int* children;$/;"	m	struct:UI_Layout	typeref:typename:int *
+children_length	src/ui.h	/^    int children_length;$/;"	m	struct:UI_Layout	typeref:typename:int
+closedir	nob.h	/^NOBDEF int closedir(DIR *dirp)$/;"	f	typeref:typename:NOBDEF int	signature:(DIR * dirp)
+closedir	nob.h	/^static int closedir(DIR *dirp);$/;"	p	typeref:typename:int	signature:(DIR * dirp)
+cmd_append	nob.h	/^        #define cmd_append /;"	d
+cmd_extend	nob.h	/^        #define cmd_extend /;"	d
+cmd_free	nob.h	/^        #define cmd_free /;"	d
+cmd_render	nob.h	/^        #define cmd_render /;"	d
+cmd_run	nob.h	/^        #define cmd_run /;"	d
+cmd_run_async	nob.h	/^        #define cmd_run_async /;"	d
+cmd_run_async_and_reset	nob.h	/^        #define cmd_run_async_and_reset /;"	d
+cmd_run_async_redirect	nob.h	/^        #define cmd_run_async_redirect /;"	d
+cmd_run_async_redirect_and_reset	nob.h	/^        #define cmd_run_async_redirect_and_reset /;"	d
+cmd_run_opt	nob.h	/^        #define cmd_run_opt /;"	d
+cmd_run_sync	nob.h	/^        #define cmd_run_sync /;"	d
+cmd_run_sync_and_reset	nob.h	/^        #define cmd_run_sync_and_reset /;"	d
+cmd_run_sync_redirect	nob.h	/^        #define cmd_run_sync_redirect /;"	d
+cmd_run_sync_redirect_and_reset	nob.h	/^        #define cmd_run_sync_redirect_and_reset /;"	d
+copy_directory_recursively	nob.h	/^        #define copy_directory_recursively /;"	d
+copy_file	nob.h	/^        #define copy_file /;"	d
+count	nob.h	/^    size_t count;$/;"	m	struct:__anon10040cda0208	typeref:typename:size_t
+count	nob.h	/^    size_t count;$/;"	m	struct:__anon10040cda0408	typeref:typename:size_t
+count	nob.h	/^    size_t count;$/;"	m	struct:__anon10040cda0508	typeref:typename:size_t
+count	nob.h	/^    size_t count;$/;"	m	struct:__anon10040cda0608	typeref:typename:size_t
+count	nob.h	/^    size_t count;$/;"	m	struct:__anon10040cda0908	typeref:typename:size_t
+d_name	nob.h	/^    char d_name[MAX_PATH+1];$/;"	m	struct:dirent	typeref:typename:char[]
+da_append	nob.h	/^        #define da_append /;"	d
+da_append_many	nob.h	/^        #define da_append_many /;"	d
+da_foreach	nob.h	/^        #define da_foreach /;"	d
+da_free	nob.h	/^        #define da_free /;"	d
+da_last	nob.h	/^        #define da_last /;"	d
+da_remove_unordered	nob.h	/^        #define da_remove_unordered /;"	d
+da_reserve	nob.h	/^        #define da_reserve /;"	d
+da_resize	nob.h	/^        #define da_resize /;"	d
+data	nob.h	/^    WIN32_FIND_DATA data;$/;"	m	struct:DIR	typeref:typename:WIN32_FIND_DATA
+data	nob.h	/^    const char *data;$/;"	m	struct:__anon10040cda0908	typeref:typename:const char *
+delete_file	nob.h	/^        #define delete_file /;"	d
+dirent	nob.h	/^    struct dirent *dirent;$/;"	m	struct:DIR	typeref:struct:dirent *
+dirent	nob.h	/^struct dirent$/;"	s
+dirent::d_name	nob.h	/^    char d_name[MAX_PATH+1];$/;"	m	struct:dirent	typeref:typename:char[]
+fd_close	nob.h	/^        #define fd_close /;"	d
+fd_open_for_read	nob.h	/^        #define fd_open_for_read /;"	d
+fd_open_for_write	nob.h	/^        #define fd_open_for_write /;"	d
+fderr	nob.h	/^    Nob_Fd *fderr;$/;"	m	struct:__anon10040cda0808	typeref:typename:Nob_Fd *
+fdin	nob.h	/^    Nob_Fd *fdin;$/;"	m	struct:__anon10040cda0808	typeref:typename:Nob_Fd *
+fdout	nob.h	/^    Nob_Fd *fdout;$/;"	m	struct:__anon10040cda0808	typeref:typename:Nob_Fd *
+file_exists	nob.h	/^        #define file_exists /;"	d
+get_current_dir_temp	nob.h	/^        #define get_current_dir_temp /;"	d
+get_file_type	nob.h	/^        #define get_file_type /;"	d
+hFind	nob.h	/^    HANDLE hFind;$/;"	m	struct:DIR	typeref:typename:HANDLE
+items	nob.h	/^    Nob_Proc *items;$/;"	m	struct:__anon10040cda0508	typeref:typename:Nob_Proc *
+items	nob.h	/^    char *items;$/;"	m	struct:__anon10040cda0408	typeref:typename:char *
+items	nob.h	/^    const char **items;$/;"	m	struct:__anon10040cda0208	typeref:typename:const char **
+items	nob.h	/^    const char **items;$/;"	m	struct:__anon10040cda0608	typeref:typename:const char **
+main	nob.c	/^int main(int argc, char **argv) {$/;"	f	typeref:typename:int	signature:(int argc,char ** argv)
+main	src/main.c	/^int main(void) {$/;"	f	typeref:typename:int	signature:(void)
+max_procs	nob.h	/^    size_t max_procs;$/;"	m	struct:__anon10040cda0708	typeref:typename:size_t
+minimal_log_level	nob.h	/^        #define minimal_log_level /;"	d
+mkdir_if_not_exists	nob.h	/^        #define mkdir_if_not_exists /;"	d
+nanos_since_unspecified_epoch	nob.h	/^        #define nanos_since_unspecified_epoch /;"	d
+needs_rebuild	nob.h	/^        #define needs_rebuild /;"	d
+needs_rebuild1	nob.h	/^        #define needs_rebuild1 /;"	d
+nob__cmd_start_process	nob.h	/^static Nob_Proc nob__cmd_start_process(Nob_Cmd cmd, Nob_Fd *fdin, Nob_Fd *fdout, Nob_Fd *fderr)$/;"	f	typeref:typename:Nob_Proc	signature:(Nob_Cmd cmd,Nob_Fd * fdin,Nob_Fd * fdout,Nob_Fd * fderr)
+nob__cmd_start_process	nob.h	/^static Nob_Proc nob__cmd_start_process(Nob_Cmd cmd, Nob_Fd *fdin, Nob_Fd *fdout, Nob_Fd *fderr);$/;"	p	typeref:typename:Nob_Proc	signature:(Nob_Cmd cmd,Nob_Fd * fdin,Nob_Fd * fdout,Nob_Fd * fderr)
+nob__go_rebuild_urself	nob.h	/^NOBDEF void nob__go_rebuild_urself(int argc, char **argv, const char *source_path, ...)$/;"	f	typeref:typename:NOBDEF void	signature:(int argc,char ** argv,const char * source_path,...)
+nob__go_rebuild_urself	nob.h	/^NOBDEF void nob__go_rebuild_urself(int argc, char **argv, const char *source_path, ...);$/;"	p	typeref:typename:NOBDEF void	signature:(int argc,char ** argv,const char * source_path,...)
+nob__proc_wait_async	nob.h	/^static int nob__proc_wait_async(Nob_Proc proc, int ms)$/;"	f	typeref:typename:int	signature:(Nob_Proc proc,int ms)
+nob__proc_wait_async	nob.h	/^static int nob__proc_wait_async(Nob_Proc proc, int ms);$/;"	p	typeref:typename:int	signature:(Nob_Proc proc,int ms)
+nob__win32_cmd_quote	nob.h	/^static void nob__win32_cmd_quote(Nob_Cmd cmd, Nob_String_Builder *quoted)$/;"	f	typeref:typename:void	signature:(Nob_Cmd cmd,Nob_String_Builder * quoted)
+nob_cc	nob.h	/^#       define nob_cc(/;"	d	signature:(cmd)
+nob_cc	nob.h	/^#    define nob_cc(/;"	d	signature:(cmd)
+nob_cc_flags	nob.h	/^#    define nob_cc_flags(/;"	d	signature:(cmd)
+nob_cc_inputs	nob.h	/^#  define nob_cc_inputs(/;"	d	signature:(cmd,...)
+nob_cc_output	nob.h	/^#    define nob_cc_output(/;"	d	signature:(cmd,output_path)
+nob_cmd_append	nob.h	/^#define nob_cmd_append(/;"	d	signature:(cmd,...)
+nob_cmd_extend	nob.h	/^#define nob_cmd_extend(/;"	d	signature:(cmd,other_cmd)
+nob_cmd_free	nob.h	/^#define nob_cmd_free(/;"	d	signature:(cmd)
+nob_cmd_render	nob.h	/^NOBDEF void nob_cmd_render(Nob_Cmd cmd, Nob_String_Builder *render)$/;"	f	typeref:typename:NOBDEF void	signature:(Nob_Cmd cmd,Nob_String_Builder * render)
+nob_cmd_render	nob.h	/^NOBDEF void nob_cmd_render(Nob_Cmd cmd, Nob_String_Builder *render);$/;"	p	typeref:typename:NOBDEF void	signature:(Nob_Cmd cmd,Nob_String_Builder * render)
+nob_cmd_run	nob.h	/^#define nob_cmd_run(/;"	d	signature:(cmd,...)
+nob_cmd_run_async	nob.h	/^NOBDEF Nob_Proc nob_cmd_run_async(Nob_Cmd cmd)$/;"	f	typeref:typename:NOBDEF Nob_Proc	signature:(Nob_Cmd cmd)
+nob_cmd_run_async	nob.h	/^NOBDEF Nob_Proc nob_cmd_run_async(Nob_Cmd cmd);$/;"	p	signature:(Nob_Cmd cmd)
+nob_cmd_run_async_and_reset	nob.h	/^NOBDEF Nob_Proc nob_cmd_run_async_and_reset(Nob_Cmd *cmd)$/;"	f	typeref:typename:NOBDEF Nob_Proc	signature:(Nob_Cmd * cmd)
+nob_cmd_run_async_and_reset	nob.h	/^NOBDEF Nob_Proc nob_cmd_run_async_and_reset(Nob_Cmd *cmd);$/;"	p	signature:(Nob_Cmd * cmd)
+nob_cmd_run_async_redirect	nob.h	/^NOBDEF Nob_Proc nob_cmd_run_async_redirect(Nob_Cmd cmd, Nob_Cmd_Redirect redirect)$/;"	f	typeref:typename:NOBDEF Nob_Proc	signature:(Nob_Cmd cmd,Nob_Cmd_Redirect redirect)
+nob_cmd_run_async_redirect	nob.h	/^NOBDEF Nob_Proc nob_cmd_run_async_redirect(Nob_Cmd cmd, Nob_Cmd_Redirect redirect);$/;"	p	signature:(Nob_Cmd cmd,Nob_Cmd_Redirect redirect)
+nob_cmd_run_async_redirect_and_reset	nob.h	/^NOBDEF Nob_Proc nob_cmd_run_async_redirect_and_reset(Nob_Cmd *cmd, Nob_Cmd_Redirect redirect)$/;"	f	typeref:typename:NOBDEF Nob_Proc	signature:(Nob_Cmd * cmd,Nob_Cmd_Redirect redirect)
+nob_cmd_run_async_redirect_and_reset	nob.h	/^NOBDEF Nob_Proc nob_cmd_run_async_redirect_and_reset(Nob_Cmd *cmd, Nob_Cmd_Redirect redirect);$/;"	p	signature:(Nob_Cmd * cmd,Nob_Cmd_Redirect redirect)
+nob_cmd_run_opt	nob.h	/^NOBDEF bool nob_cmd_run_opt(Nob_Cmd *cmd, Nob_Cmd_Opt opt)$/;"	f	typeref:typename:NOBDEF bool	signature:(Nob_Cmd * cmd,Nob_Cmd_Opt opt)
+nob_cmd_run_opt	nob.h	/^NOBDEF bool nob_cmd_run_opt(Nob_Cmd *cmd, Nob_Cmd_Opt opt);$/;"	p	typeref:typename:NOBDEF bool	signature:(Nob_Cmd * cmd,Nob_Cmd_Opt opt)
+nob_cmd_run_sync	nob.h	/^NOBDEF bool nob_cmd_run_sync(Nob_Cmd cmd)$/;"	f	typeref:typename:NOBDEF bool	signature:(Nob_Cmd cmd)
+nob_cmd_run_sync	nob.h	/^NOBDEF bool nob_cmd_run_sync(Nob_Cmd cmd);$/;"	p	signature:(Nob_Cmd cmd)
+nob_cmd_run_sync_and_reset	nob.h	/^NOBDEF bool nob_cmd_run_sync_and_reset(Nob_Cmd *cmd)$/;"	f	typeref:typename:NOBDEF bool	signature:(Nob_Cmd * cmd)
+nob_cmd_run_sync_and_reset	nob.h	/^NOBDEF bool nob_cmd_run_sync_and_reset(Nob_Cmd *cmd);$/;"	p	signature:(Nob_Cmd * cmd)
+nob_cmd_run_sync_redirect	nob.h	/^NOBDEF bool nob_cmd_run_sync_redirect(Nob_Cmd cmd, Nob_Cmd_Redirect redirect)$/;"	f	typeref:typename:NOBDEF bool	signature:(Nob_Cmd cmd,Nob_Cmd_Redirect redirect)
+nob_cmd_run_sync_redirect	nob.h	/^NOBDEF bool nob_cmd_run_sync_redirect(Nob_Cmd cmd, Nob_Cmd_Redirect redirect);$/;"	p	signature:(Nob_Cmd cmd,Nob_Cmd_Redirect redirect)
+nob_cmd_run_sync_redirect_and_reset	nob.h	/^NOBDEF bool nob_cmd_run_sync_redirect_and_reset(Nob_Cmd *cmd, Nob_Cmd_Redirect redirect)$/;"	f	typeref:typename:NOBDEF bool	signature:(Nob_Cmd * cmd,Nob_Cmd_Redirect redirect)
+nob_cmd_run_sync_redirect_and_reset	nob.h	/^NOBDEF bool nob_cmd_run_sync_redirect_and_reset(Nob_Cmd *cmd, Nob_Cmd_Redirect redirect);$/;"	p	signature:(Nob_Cmd * cmd,Nob_Cmd_Redirect redirect)
+nob_copy_directory_recursively	nob.h	/^NOBDEF bool nob_copy_directory_recursively(const char *src_path, const char *dst_path)$/;"	f	typeref:typename:NOBDEF bool	signature:(const char * src_path,const char * dst_path)
+nob_copy_directory_recursively	nob.h	/^NOBDEF bool nob_copy_directory_recursively(const char *src_path, const char *dst_path);$/;"	p	typeref:typename:NOBDEF bool	signature:(const char * src_path,const char * dst_path)
+nob_copy_file	nob.h	/^NOBDEF bool nob_copy_file(const char *src_path, const char *dst_path)$/;"	f	typeref:typename:NOBDEF bool	signature:(const char * src_path,const char * dst_path)
+nob_copy_file	nob.h	/^NOBDEF bool nob_copy_file(const char *src_path, const char *dst_path);$/;"	p	typeref:typename:NOBDEF bool	signature:(const char * src_path,const char * dst_path)
+nob_da_append	nob.h	/^#define nob_da_append(/;"	d	signature:(da,item)
+nob_da_append_many	nob.h	/^#define nob_da_append_many(/;"	d	signature:(da,new_items,new_items_count)
+nob_da_foreach	nob.h	/^#define nob_da_foreach(/;"	d	signature:(Type,it,da)
+nob_da_free	nob.h	/^#define nob_da_free(/;"	d	signature:(da)
+nob_da_last	nob.h	/^#define nob_da_last(/;"	d	signature:(da)
+nob_da_remove_unordered	nob.h	/^#define nob_da_remove_unordered(/;"	d	signature:(da,i)
+nob_da_reserve	nob.h	/^#define nob_da_reserve(/;"	d	signature:(da,expected_capacity)
+nob_da_resize	nob.h	/^#define nob_da_resize(/;"	d	signature:(da,new_size)
+nob_delete_file	nob.h	/^NOBDEF bool nob_delete_file(const char *path)$/;"	f	typeref:typename:NOBDEF bool	signature:(const char * path)
+nob_delete_file	nob.h	/^NOBDEF bool nob_delete_file(const char *path);$/;"	p	typeref:typename:NOBDEF bool	signature:(const char * path)
+nob_fd_close	nob.h	/^NOBDEF void nob_fd_close(Nob_Fd fd)$/;"	f	typeref:typename:NOBDEF void	signature:(Nob_Fd fd)
+nob_fd_close	nob.h	/^NOBDEF void nob_fd_close(Nob_Fd fd);$/;"	p	typeref:typename:NOBDEF void	signature:(Nob_Fd fd)
+nob_fd_open_for_read	nob.h	/^NOBDEF Nob_Fd nob_fd_open_for_read(const char *path)$/;"	f	typeref:typename:NOBDEF Nob_Fd	signature:(const char * path)
+nob_fd_open_for_read	nob.h	/^NOBDEF Nob_Fd nob_fd_open_for_read(const char *path);$/;"	p	typeref:typename:NOBDEF Nob_Fd	signature:(const char * path)
+nob_fd_open_for_write	nob.h	/^NOBDEF Nob_Fd nob_fd_open_for_write(const char *path)$/;"	f	typeref:typename:NOBDEF Nob_Fd	signature:(const char * path)
+nob_fd_open_for_write	nob.h	/^NOBDEF Nob_Fd nob_fd_open_for_write(const char *path);$/;"	p	typeref:typename:NOBDEF Nob_Fd	signature:(const char * path)
+nob_file_exists	nob.h	/^NOBDEF int nob_file_exists(const char *file_path)$/;"	f	typeref:typename:NOBDEF int	signature:(const char * file_path)
+nob_file_exists	nob.h	/^NOBDEF int nob_file_exists(const char *file_path);$/;"	p	typeref:typename:NOBDEF int	signature:(const char * file_path)
+nob_get_current_dir_temp	nob.h	/^NOBDEF const char *nob_get_current_dir_temp(void)$/;"	f	typeref:typename:NOBDEF const char *	signature:(void)
+nob_get_current_dir_temp	nob.h	/^NOBDEF const char *nob_get_current_dir_temp(void);$/;"	p	typeref:typename:NOBDEF const char *	signature:(void)
+nob_get_file_type	nob.h	/^NOBDEF Nob_File_Type nob_get_file_type(const char *path)$/;"	f	typeref:typename:NOBDEF Nob_File_Type	signature:(const char * path)
+nob_get_file_type	nob.h	/^NOBDEF Nob_File_Type nob_get_file_type(const char *path);$/;"	p	typeref:typename:NOBDEF Nob_File_Type	signature:(const char * path)
+nob_log	nob.h	/^NOBDEF void nob_log(Nob_Log_Level level, const char *fmt, ...) NOB_PRINTF_FORMAT(2, 3);$/;"	p	typeref:typename:NOBDEF void	signature:(Nob_Log_Level level,const char * fmt,...)
+nob_log	nob.h	/^NOBDEF void nob_log(Nob_Log_Level level, const char *fmt, ...)$/;"	f	typeref:typename:NOBDEF void	signature:(Nob_Log_Level level,const char * fmt,...)
+nob_minimal_log_level	nob.h	/^Nob_Log_Level nob_minimal_log_level = NOB_INFO;$/;"	v	typeref:typename:Nob_Log_Level
+nob_mkdir_if_not_exists	nob.h	/^NOBDEF bool nob_mkdir_if_not_exists(const char *path)$/;"	f	typeref:typename:NOBDEF bool	signature:(const char * path)
+nob_mkdir_if_not_exists	nob.h	/^NOBDEF bool nob_mkdir_if_not_exists(const char *path);$/;"	p	typeref:typename:NOBDEF bool	signature:(const char * path)
+nob_nanos_since_unspecified_epoch	nob.h	/^NOBDEF uint64_t nob_nanos_since_unspecified_epoch(void)$/;"	f	typeref:typename:NOBDEF uint64_t	signature:(void)
+nob_nanos_since_unspecified_epoch	nob.h	/^NOBDEF uint64_t nob_nanos_since_unspecified_epoch(void);$/;"	p	typeref:typename:NOBDEF uint64_t	signature:(void)
+nob_needs_rebuild	nob.h	/^NOBDEF int nob_needs_rebuild(const char *output_path, const char **input_paths, size_t input_pat/;"	f	typeref:typename:NOBDEF int	signature:(const char * output_path,const char ** input_paths,size_t input_paths_count)
+nob_needs_rebuild	nob.h	/^NOBDEF int nob_needs_rebuild(const char *output_path, const char **input_paths, size_t input_pat/;"	p	typeref:typename:NOBDEF int	signature:(const char * output_path,const char ** input_paths,size_t input_paths_count)
+nob_needs_rebuild1	nob.h	/^NOBDEF int nob_needs_rebuild1(const char *output_path, const char *input_path)$/;"	f	typeref:typename:NOBDEF int	signature:(const char * output_path,const char * input_path)
+nob_needs_rebuild1	nob.h	/^NOBDEF int nob_needs_rebuild1(const char *output_path, const char *input_path);$/;"	p	typeref:typename:NOBDEF int	signature:(const char * output_path,const char * input_path)
+nob_nprocs	nob.h	/^NOBDEF int nob_nprocs(void)$/;"	f	typeref:typename:NOBDEF int	signature:(void)
+nob_nprocs	nob.h	/^NOBDEF int nob_nprocs(void);$/;"	p	typeref:typename:NOBDEF int	signature:(void)
+nob_path_name	nob.h	/^NOBDEF const char *nob_path_name(const char *path)$/;"	f	typeref:typename:NOBDEF const char *	signature:(const char * path)
+nob_path_name	nob.h	/^NOBDEF const char *nob_path_name(const char *path);$/;"	p	typeref:typename:NOBDEF const char *	signature:(const char * path)
+nob_proc_wait	nob.h	/^NOBDEF bool nob_proc_wait(Nob_Proc proc)$/;"	f	typeref:typename:NOBDEF bool	signature:(Nob_Proc proc)
+nob_proc_wait	nob.h	/^NOBDEF bool nob_proc_wait(Nob_Proc proc);$/;"	p	typeref:typename:NOBDEF bool	signature:(Nob_Proc proc)
+nob_procs_append_with_flush	nob.h	/^NOBDEF bool nob_procs_append_with_flush(Nob_Procs *procs, Nob_Proc proc, size_t max_procs_count)$/;"	f	typeref:typename:NOBDEF bool	signature:(Nob_Procs * procs,Nob_Proc proc,size_t max_procs_count)
+nob_procs_append_with_flush	nob.h	/^NOBDEF bool nob_procs_append_with_flush(Nob_Procs *procs, Nob_Proc proc, size_t max_procs_count)/;"	p	signature:(Nob_Procs * procs,Nob_Proc proc,size_t max_procs_count)
+nob_procs_flush	nob.h	/^NOBDEF bool nob_procs_flush(Nob_Procs *procs)$/;"	f	typeref:typename:NOBDEF bool	signature:(Nob_Procs * procs)
+nob_procs_flush	nob.h	/^NOBDEF bool nob_procs_flush(Nob_Procs *procs);$/;"	p	typeref:typename:NOBDEF bool	signature:(Nob_Procs * procs)
+nob_procs_wait	nob.h	/^NOBDEF bool nob_procs_wait(Nob_Procs procs)$/;"	f	typeref:typename:NOBDEF bool	signature:(Nob_Procs procs)
+nob_procs_wait	nob.h	/^NOBDEF bool nob_procs_wait(Nob_Procs procs);$/;"	p	typeref:typename:NOBDEF bool	signature:(Nob_Procs procs)
+nob_procs_wait_and_reset	nob.h	/^NOBDEF bool nob_procs_wait_and_reset(Nob_Procs *procs)$/;"	f	typeref:typename:NOBDEF bool	signature:(Nob_Procs * procs)
+nob_procs_wait_and_reset	nob.h	/^NOBDEF bool nob_procs_wait_and_reset(Nob_Procs *procs);$/;"	p	signature:(Nob_Procs * procs)
+nob_read_entire_dir	nob.h	/^NOBDEF bool nob_read_entire_dir(const char *parent, Nob_File_Paths *children)$/;"	f	typeref:typename:NOBDEF bool	signature:(const char * parent,Nob_File_Paths * children)
+nob_read_entire_dir	nob.h	/^NOBDEF bool nob_read_entire_dir(const char *parent, Nob_File_Paths *children);$/;"	p	typeref:typename:NOBDEF bool	signature:(const char * parent,Nob_File_Paths * children)
+nob_read_entire_file	nob.h	/^NOBDEF bool nob_read_entire_file(const char *path, Nob_String_Builder *sb)$/;"	f	typeref:typename:NOBDEF bool	signature:(const char * path,Nob_String_Builder * sb)
+nob_read_entire_file	nob.h	/^NOBDEF bool nob_read_entire_file(const char *path, Nob_String_Builder *sb);$/;"	p	typeref:typename:NOBDEF bool	signature:(const char * path,Nob_String_Builder * sb)
+nob_rename	nob.h	/^NOBDEF bool nob_rename(const char *old_path, const char *new_path)$/;"	f	typeref:typename:NOBDEF bool	signature:(const char * old_path,const char * new_path)
+nob_rename	nob.h	/^NOBDEF bool nob_rename(const char *old_path, const char *new_path);$/;"	p	typeref:typename:NOBDEF bool	signature:(const char * old_path,const char * new_path)
+nob_return_defer	nob.h	/^#define nob_return_defer(/;"	d	signature:(value)
+nob_sb_append_buf	nob.h	/^#define nob_sb_append_buf(/;"	d	signature:(sb,buf,size)
+nob_sb_append_cstr	nob.h	/^#define nob_sb_append_cstr(/;"	d	signature:(sb,cstr)
+nob_sb_append_null	nob.h	/^#define nob_sb_append_null(/;"	d	signature:(sb)
+nob_sb_appendf	nob.h	/^NOBDEF int nob_sb_appendf(Nob_String_Builder *sb, const char *fmt, ...) NOB_PRINTF_FORMAT(2, 3);$/;"	p	typeref:typename:NOBDEF int	signature:(Nob_String_Builder * sb,const char * fmt,...)
+nob_sb_appendf	nob.h	/^NOBDEF int nob_sb_appendf(Nob_String_Builder *sb, const char *fmt, ...)$/;"	f	typeref:typename:NOBDEF int	signature:(Nob_String_Builder * sb,const char * fmt,...)
+nob_sb_free	nob.h	/^#define nob_sb_free(/;"	d	signature:(sb)
+nob_sb_to_sv	nob.h	/^#define nob_sb_to_sv(/;"	d	signature:(sb)
+nob_set_current_dir	nob.h	/^NOBDEF bool nob_set_current_dir(const char *path)$/;"	f	typeref:typename:NOBDEF bool	signature:(const char * path)
+nob_set_current_dir	nob.h	/^NOBDEF bool nob_set_current_dir(const char *path);$/;"	p	typeref:typename:NOBDEF bool	signature:(const char * path)
+nob_shift	nob.h	/^#define nob_shift(/;"	d	signature:(xs,xs_sz)
+nob_shift_args	nob.h	/^#define nob_shift_args(/;"	d	signature:(argc,argv)
+nob_sv_chop_by_delim	nob.h	/^NOBDEF Nob_String_View nob_sv_chop_by_delim(Nob_String_View *sv, char delim)$/;"	f	typeref:typename:NOBDEF Nob_String_View	signature:(Nob_String_View * sv,char delim)
+nob_sv_chop_by_delim	nob.h	/^NOBDEF Nob_String_View nob_sv_chop_by_delim(Nob_String_View *sv, char delim);$/;"	p	typeref:typename:NOBDEF Nob_String_View	signature:(Nob_String_View * sv,char delim)
+nob_sv_chop_left	nob.h	/^NOBDEF Nob_String_View nob_sv_chop_left(Nob_String_View *sv, size_t n)$/;"	f	typeref:typename:NOBDEF Nob_String_View	signature:(Nob_String_View * sv,size_t n)
+nob_sv_chop_left	nob.h	/^NOBDEF Nob_String_View nob_sv_chop_left(Nob_String_View *sv, size_t n);$/;"	p	typeref:typename:NOBDEF Nob_String_View	signature:(Nob_String_View * sv,size_t n)
+nob_sv_end_with	nob.h	/^NOBDEF bool nob_sv_end_with(Nob_String_View sv, const char *cstr)$/;"	f	typeref:typename:NOBDEF bool	signature:(Nob_String_View sv,const char * cstr)
+nob_sv_end_with	nob.h	/^NOBDEF bool nob_sv_end_with(Nob_String_View sv, const char *cstr);$/;"	p	typeref:typename:NOBDEF bool	signature:(Nob_String_View sv,const char * cstr)
+nob_sv_eq	nob.h	/^NOBDEF bool nob_sv_eq(Nob_String_View a, Nob_String_View b)$/;"	f	typeref:typename:NOBDEF bool	signature:(Nob_String_View a,Nob_String_View b)
+nob_sv_eq	nob.h	/^NOBDEF bool nob_sv_eq(Nob_String_View a, Nob_String_View b);$/;"	p	typeref:typename:NOBDEF bool	signature:(Nob_String_View a,Nob_String_View b)
+nob_sv_from_cstr	nob.h	/^NOBDEF Nob_String_View nob_sv_from_cstr(const char *cstr)$/;"	f	typeref:typename:NOBDEF Nob_String_View	signature:(const char * cstr)
+nob_sv_from_cstr	nob.h	/^NOBDEF Nob_String_View nob_sv_from_cstr(const char *cstr);$/;"	p	typeref:typename:NOBDEF Nob_String_View	signature:(const char * cstr)
+nob_sv_from_parts	nob.h	/^NOBDEF Nob_String_View nob_sv_from_parts(const char *data, size_t count)$/;"	f	typeref:typename:NOBDEF Nob_String_View	signature:(const char * data,size_t count)
+nob_sv_from_parts	nob.h	/^NOBDEF Nob_String_View nob_sv_from_parts(const char *data, size_t count);$/;"	p	typeref:typename:NOBDEF Nob_String_View	signature:(const char * data,size_t count)
+nob_sv_starts_with	nob.h	/^NOBDEF bool nob_sv_starts_with(Nob_String_View sv, Nob_String_View expected_prefix)$/;"	f	typeref:typename:NOBDEF bool	signature:(Nob_String_View sv,Nob_String_View expected_prefix)
+nob_sv_starts_with	nob.h	/^NOBDEF bool nob_sv_starts_with(Nob_String_View sv, Nob_String_View expected_prefix);$/;"	p	typeref:typename:NOBDEF bool	signature:(Nob_String_View sv,Nob_String_View expected_prefix)
+nob_sv_trim	nob.h	/^NOBDEF Nob_String_View nob_sv_trim(Nob_String_View sv)$/;"	f	typeref:typename:NOBDEF Nob_String_View	signature:(Nob_String_View sv)
+nob_sv_trim	nob.h	/^NOBDEF Nob_String_View nob_sv_trim(Nob_String_View sv);$/;"	p	typeref:typename:NOBDEF Nob_String_View	signature:(Nob_String_View sv)
+nob_sv_trim_left	nob.h	/^NOBDEF Nob_String_View nob_sv_trim_left(Nob_String_View sv)$/;"	f	typeref:typename:NOBDEF Nob_String_View	signature:(Nob_String_View sv)
+nob_sv_trim_left	nob.h	/^NOBDEF Nob_String_View nob_sv_trim_left(Nob_String_View sv);$/;"	p	typeref:typename:NOBDEF Nob_String_View	signature:(Nob_String_View sv)
+nob_sv_trim_right	nob.h	/^NOBDEF Nob_String_View nob_sv_trim_right(Nob_String_View sv)$/;"	f	typeref:typename:NOBDEF Nob_String_View	signature:(Nob_String_View sv)
+nob_sv_trim_right	nob.h	/^NOBDEF Nob_String_View nob_sv_trim_right(Nob_String_View sv);$/;"	p	typeref:typename:NOBDEF Nob_String_View	signature:(Nob_String_View sv)
+nob_temp	nob.h	/^static char nob_temp[NOB_TEMP_CAPACITY] = {0};$/;"	v	typeref:typename:char[]
+nob_temp_alloc	nob.h	/^NOBDEF void *nob_temp_alloc(size_t requested_size)$/;"	f	typeref:typename:NOBDEF void *	signature:(size_t requested_size)
+nob_temp_alloc	nob.h	/^NOBDEF void *nob_temp_alloc(size_t size);$/;"	p	typeref:typename:NOBDEF void *	signature:(size_t size)
+nob_temp_reset	nob.h	/^NOBDEF void nob_temp_reset(void)$/;"	f	typeref:typename:NOBDEF void	signature:(void)
+nob_temp_reset	nob.h	/^NOBDEF void nob_temp_reset(void);$/;"	p	typeref:typename:NOBDEF void	signature:(void)
+nob_temp_rewind	nob.h	/^NOBDEF void nob_temp_rewind(size_t checkpoint)$/;"	f	typeref:typename:NOBDEF void	signature:(size_t checkpoint)
+nob_temp_rewind	nob.h	/^NOBDEF void nob_temp_rewind(size_t checkpoint);$/;"	p	typeref:typename:NOBDEF void	signature:(size_t checkpoint)
+nob_temp_save	nob.h	/^NOBDEF size_t nob_temp_save(void)$/;"	f	typeref:typename:NOBDEF size_t	signature:(void)
+nob_temp_save	nob.h	/^NOBDEF size_t nob_temp_save(void);$/;"	p	typeref:typename:NOBDEF size_t	signature:(void)
+nob_temp_size	nob.h	/^static size_t nob_temp_size = 0;$/;"	v	typeref:typename:size_t
+nob_temp_sprintf	nob.h	/^NOBDEF char *nob_temp_sprintf(const char *format, ...) NOB_PRINTF_FORMAT(1, 2);$/;"	p	typeref:typename:NOBDEF char *	signature:(const char * format,...)
+nob_temp_sprintf	nob.h	/^NOBDEF char *nob_temp_sprintf(const char *format, ...)$/;"	f	typeref:typename:NOBDEF char *	signature:(const char * format,...)
+nob_temp_strdup	nob.h	/^NOBDEF char *nob_temp_strdup(const char *cstr)$/;"	f	typeref:typename:NOBDEF char *	signature:(const char * cstr)
+nob_temp_strdup	nob.h	/^NOBDEF char *nob_temp_strdup(const char *cstr);$/;"	p	typeref:typename:NOBDEF char *	signature:(const char * cstr)
+nob_temp_sv_to_cstr	nob.h	/^NOBDEF const char *nob_temp_sv_to_cstr(Nob_String_View sv)$/;"	f	typeref:typename:NOBDEF const char *	signature:(Nob_String_View sv)
+nob_temp_sv_to_cstr	nob.h	/^NOBDEF const char *nob_temp_sv_to_cstr(Nob_String_View sv);$/;"	p	typeref:typename:NOBDEF const char *	signature:(Nob_String_View sv)
+nob_win32_error_message	nob.h	/^NOBDEF char *nob_win32_error_message(DWORD err) {$/;"	f	typeref:typename:NOBDEF char *	signature:(DWORD err)
+nob_win32_error_message	nob.h	/^NOBDEF char *nob_win32_error_message(DWORD err);$/;"	p	typeref:typename:NOBDEF char *	signature:(DWORD err)
+nob_write_entire_file	nob.h	/^NOBDEF bool nob_write_entire_file(const char *path, const void *data, size_t size)$/;"	f	typeref:typename:NOBDEF bool	signature:(const char * path,const void * data,size_t size)
+nob_write_entire_file	nob.h	/^NOBDEF bool nob_write_entire_file(const char *path, const void *data, size_t size);$/;"	p	typeref:typename:NOBDEF bool	signature:(const char * path,const void * data,size_t size)
+nprocs	nob.h	/^        #define nprocs /;"	d
+opendir	nob.h	/^NOBDEF DIR *opendir(const char *dirpath)$/;"	f	typeref:typename:NOBDEF DIR *	signature:(const char * dirpath)
+opendir	nob.h	/^static DIR *opendir(const char *dirpath);$/;"	p	typeref:typename:DIR *	signature:(const char * dirpath)
+path_name	nob.h	/^        #define path_name /;"	d
+proc_wait	nob.h	/^        #define proc_wait /;"	d
+procs_append_with_flush	nob.h	/^        #define procs_append_with_flush /;"	d
+procs_flush	nob.h	/^        #define procs_flush /;"	d
+procs_wait	nob.h	/^        #define procs_wait /;"	d
+procs_wait_and_reset	nob.h	/^        #define procs_wait_and_reset /;"	d
+read_entire_dir	nob.h	/^        #define read_entire_dir /;"	d
+read_entire_file	nob.h	/^        #define read_entire_file /;"	d
+readdir	nob.h	/^NOBDEF struct dirent *readdir(DIR *dirp)$/;"	f	typeref:typename:NOBDEF struct dirent *	signature:(DIR * dirp)
+readdir	nob.h	/^static struct dirent *readdir(DIR *dirp);$/;"	p	typeref:struct:dirent *	signature:(DIR * dirp)
+return_defer	nob.h	/^        #define return_defer /;"	d
+root	src/ui.h	/^    UI_Layout root;$/;"	m	struct:UI_Context	typeref:typename:UI_Layout
+sb_append_buf	nob.h	/^        #define sb_append_buf /;"	d
+sb_append_cstr	nob.h	/^        #define sb_append_cstr /;"	d
+sb_append_null	nob.h	/^        #define sb_append_null /;"	d
+sb_appendf	nob.h	/^        #define sb_appendf /;"	d
+sb_free	nob.h	/^        #define sb_free /;"	d
+sb_to_sv	nob.h	/^        #define sb_to_sv /;"	d
+set_current_dir	nob.h	/^        #define set_current_dir /;"	d
+shift	nob.h	/^        #define shift /;"	d
+shift_args	nob.h	/^        #define shift_args /;"	d
+stderr_path	nob.h	/^    const char *stderr_path;$/;"	m	struct:__anon10040cda0708	typeref:typename:const char *
+stdin_path	nob.h	/^    const char *stdin_path;$/;"	m	struct:__anon10040cda0708	typeref:typename:const char *
+stdout_path	nob.h	/^    const char *stdout_path;$/;"	m	struct:__anon10040cda0708	typeref:typename:const char *
+storage	src/ui.h	/^    UI_Layout storage[UI_CONTEXT_LENGTH];$/;"	m	struct:UI_Context	typeref:typename:UI_Layout[]
+sv_chop_by_delim	nob.h	/^        #define sv_chop_by_delim /;"	d
+sv_chop_left	nob.h	/^        #define sv_chop_left /;"	d
+sv_end_with	nob.h	/^        #define sv_end_with /;"	d
+sv_eq	nob.h	/^        #define sv_eq /;"	d
+sv_from_cstr	nob.h	/^        #define sv_from_cstr /;"	d
+sv_from_parts	nob.h	/^        #define sv_from_parts /;"	d
+sv_starts_with	nob.h	/^        #define sv_starts_with /;"	d
+sv_trim	nob.h	/^        #define sv_trim /;"	d
+sv_trim_left	nob.h	/^        #define sv_trim_left /;"	d
+sv_trim_right	nob.h	/^        #define sv_trim_right /;"	d
+temp_alloc	nob.h	/^        #define temp_alloc /;"	d
+temp_reset	nob.h	/^        #define temp_reset /;"	d
+temp_rewind	nob.h	/^        #define temp_rewind /;"	d
+temp_save	nob.h	/^        #define temp_save /;"	d
+temp_sprintf	nob.h	/^        #define temp_sprintf /;"	d
+temp_strdup	nob.h	/^        #define temp_strdup /;"	d
+temp_sv_to_cstr	nob.h	/^        #define temp_sv_to_cstr /;"	d
+type	src/ui.h	/^    UI_LayoutType type;$/;"	m	struct:UI_Layout	typeref:typename:UI_LayoutType
+ui_call_me	src/ui.h	/^void ui_call_me(void) {$/;"	f	typeref:typename:void	signature:(void)
+win32_error_message	nob.h	/^        #define win32_error_message /;"	d
+write_entire_file	nob.h	/^        #define write_entire_file /;"	d
